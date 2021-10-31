@@ -1,0 +1,381 @@
+body {
+    background-color: white;
+}
+
+
+/*header*/
+
+.headerIndex_nav_container-fluid {
+    width: 100%;
+    display: flex;
+    background-color: white;
+}
+
+.navbar-expand-lg {
+    width: 90%;
+}
+
+.navbar-collapse {
+    justify-content: space-around;
+}
+
+
+.navbar-light .navbar-nav .nav-link {
+    color: black;
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 30px;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: white;
+    background-color: black;
+}
+.imgNavbar {
+    width: 7em;
+    margin-left: 60%;
+    margin-top: 30px;
+}
+.navbar-toggler{
+     margin-right: 450%;
+}
+
+.contenedorIconosHeader_img {
+    display: flex;
+    flex-direction: row;
+    width: 10%;
+    height: 5%;
+    align-items: center;
+    justify-content: center;
+    margin-top: 45px;
+    margin-left: -35px;
+}
+
+.iconoHeader {
+    width: 1.5rem;
+}
+
+
+
+
+/*seccion 1*/
+
+.fotoSectionImagenes {
+    transition: all 0.2s ease;
+    width: 15vw;
+    margin: 2vw;
+}
+
+.fotoSectionImagenes:hover {
+    transform: scale(1.2,1.2);
+}
+
+/*horizontal*/
+
+.horizontalUno{
+    width: 100%;
+    padding-top: 15%;
+}
+.horizontalDos {
+    width: 100%;
+    padding-top: 15%;
+
+}
+.horizontalTres{
+    width: 100%;
+    padding-top: 15%;
+}
+.carousel-control-prev{
+    padding-top: 15%;
+}
+.carousel-control-next{
+    padding-top: 15%;
+}
+
+img {
+    margin: 5px;
+    width: 20%;
+    height: 40%;
+}
+
+.imagenes {
+    margin-top: 12%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;    
+}
+
+.imagenHorizontal {
+    width: 500%;
+    height: 250%;
+    padding-top: 20%;
+    padding-bottom: 10%;
+}
+
+
+
+/*tabla*/
+
+table {
+    font-family: 'Poppins', sans-serif;
+}
+
+ol li {
+    font-family: 'Poppins', sans-serif;
+}
+
+form {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+
+
+/*Niñas*/
+
+.portada {
+    border: none;
+    width: 7030px;
+    height: 1300px;
+    display: flex;
+}
+.spring{
+    padding-bottom: 3%;
+    margin-left: 7%;
+}
+.fotosNiñas{
+    padding-right: 9%;
+    padding-left: 7%;
+    grid-gap: 10px;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 400px 200px 400px 200px;
+    grid-template-areas: "vestidoBlanco sombrero amigas caballo";
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.vestidoBlanco{
+    grid-area: vestidoBlanco;
+    
+}
+.sombrero{
+    grid-area: sombrero;
+}
+.amigas{
+    grid-area: amigas;
+}
+.caballo{
+    grid-area: caballo;
+}
+.imgFotos{
+    width: 100%;
+    height: 100%;
+}
+.imgFotos:hover{
+    color: oldlace;
+    opacity: .7;
+}
+.texto{
+    font-weight: bolder;
+    font-size: 14px;
+}
+
+
+/*Deco*/
+
+.productos {
+    padding-right: 7%;
+    padding-left: 7%;
+    padding-top: 23%;
+    grid-gap: 50px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: "espejo mesa manta" "silla macetaNika macetaCala";
+}
+
+.espejo {
+    grid-area: espejo;
+}
+
+.mesa {
+    grid-area: mesa;
+}
+
+.manta {
+    grid-area: manta;
+}
+
+.silla {
+    grid-area: silla;
+}
+
+.macetaNika {
+    grid-area: macetaNika;
+}
+
+.macetaCala {
+    grid-area: macetaCala;
+}
+
+p {
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+    margin: 8px;
+    font-size: 13px;
+    display: flex;
+    flex-direction:row;
+}
+
+.producto {
+    display: flex;
+    flex-direction: column;
+}
+
+.imgProduct {
+    width: 100%;
+    height: 100%;
+}
+.imgProduct:hover{
+    color: oldlace;
+    opacity: .7;
+}
+.espejoCora{
+    font-weight: bolder;
+    font-size: 14px;
+}
+.mesaRebecca{
+    font-weight: bolder;
+    font-size: 14px;
+}
+.mantaLanin{
+    font-weight: bolder;
+    font-size: 14px;
+}
+.sillaParis{
+    font-weight: bolder;
+    font-size: 14px;
+}
+.macetaN{
+    font-weight: bolder;
+    font-size: 14px;
+}
+.macetaC{
+    font-weight: bolder;
+    font-size: 14px;
+}
+
+/*nueva colección*/
+.portada{
+    height: 80%;
+    padding-top: 20%;
+}
+
+/*footer*/
+
+.marcaFooter {
+    display: flex;
+    width: 7110px;
+    position: absolute;
+    flex-direction: row;
+    justify-content: left;
+}
+.marcaPng{
+    display: flex;
+}
+
+h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+}
+
+h3 {
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    text-align: left;
+    margin: 50px;
+    font-size: 13px;
+    font-weight: normal;
+}
+.nosotros:hover{
+    color: #D86A7E;
+}
+.ayuda:hover{
+    color: #D86A7E;
+}
+.redesSociales_h2h3--generales {
+    text-align: center;
+    text-transform:inherit;
+}
+
+.redesIconos_img{
+    position: relative;
+    left: 88%;
+    bottom: 15%;
+    width: 7%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    top: -158px;
+}
+.instagram{
+    display: flex;
+}
+.redes{
+    position: relative;
+    left: 88%;
+    bottom: 15%;
+    width: 7%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    top: -158px;
+}
+
+/*contacto*/
+.formulario{
+    padding-top: 9%;
+    padding-bottom: 3%;
+    background-color: #fff9fc;
+}
+fieldset{
+    color: #D86A7E;
+}
+
+
+
+
+/*mobile first - celular*/
+@media only screen and (max-width: 500px) {
+    img {
+        margin: 3px;
+        width: 20%;
+        height: 30%;
+    }
+    .imagenes {
+        margin-top: 70%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items:center
+    }
+    .iconosHeader {
+        position: absolute;
+        right: 5%;
+        top: 8%;
+        width: 13%;
+        display: flex;
+    }
+    .redesIconos{
+        position: absolute;
+        display: flex;
+        min-width: 10%;
+    }
+    .marcaPng{
+        display: flex;
+        justify-content: left;
+    }
+}
