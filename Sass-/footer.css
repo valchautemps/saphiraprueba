@@ -1,0 +1,72 @@
+body .redesSociales_h2h3--generales {
+  text-align: center;
+  text-transform: inherit;
+}
+
+body .redesSociales_h2h3--generales h2 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+}
+
+body .redesSociales_h2h3--generales h3 {
+  color: black;
+  font-family: 'Poppins', sans-serif;
+  text-align: left;
+  margin: 50px;
+  font-size: 13px;
+  font-weight: normal;
+}
+
+body .redesSociales_h2h3--generales .nosotros .nosotros:hover {
+  color: #D86A7E;
+}
+
+body .redesSociales_h2h3--generales .ayuda .ayuda:hover {
+  color: #D86A7E;
+}
+
+body .redesIconos_img {
+  position: relative;
+  left: 88%;
+  bottom: 15%;
+  width: 7%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  top: -158px;
+}
+
+body .redesIconos_img .instagram {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body .marcaFooter {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 7110px;
+  position: absolute;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+}
+
+body .marcaFooter .marcaPng {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+/*# sourceMappingURL=footer.css.map */

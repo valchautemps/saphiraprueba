@@ -1,0 +1,51 @@
+body{
+   .redesSociales_h2h3--generales{
+        text-align: center;
+        text-transform:inherit;
+        h2{
+            font-family: 'Poppins', sans-serif;
+            font-size: 20px;
+        }
+        h3{
+            color: black;
+            font-family: 'Poppins', sans-serif;
+            text-align: left;
+            margin: 50px;
+            font-size: 13px;
+            font-weight: normal;
+        }
+        .nosotros{
+            .nosotros:hover{
+                color: #D86A7E;
+            }
+        }
+        .ayuda{
+            .ayuda:hover{
+                color: #D86A7E;
+            }
+        }
+    }
+    .redesIconos_img{
+        position: relative;
+        left: 88%;
+        bottom: 15%;
+        width: 7%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        top: -158px;
+        .instagram{
+            display: flex;
+        }
+    }
+    .marcaFooter{
+        display: flex;
+        width: 7110px;
+        position: absolute;
+        flex-direction: row;
+        justify-content: left;
+        .marcaPng{
+            display: flex;
+        }
+    }
+}

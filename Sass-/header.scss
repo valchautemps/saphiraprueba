@@ -1,0 +1,51 @@
+body{
+    background-color: white;
+    .headerIndex_nav_container-fluid{
+        width: 100%;
+        display: flex;
+        background-color: white;
+        .navbar .navbar-expand-lg .navbar-light{
+            width: 90%;
+            .container-fluid{
+                .navbar-brand{
+                    .imgNavbar{
+                        width: 7em;
+                        margin-left: 60%;
+                        margin-top: 30px;
+                    }
+                }
+                .collapse .navbar-collapse{
+                    justify-content: space-around;
+                    .navbar-nav{
+                        .navbar-light .navbar-nav .nav-link{
+                            color: black;
+                            font-size: 14px;
+                            font-family: 'Poppins', sans-serif;
+                            margin-top: 30px;
+                        }
+                        .navbar-light .navbar-nav .nav-link:hover{
+                            color: white;
+                            background-color: black;
+                        }
+                    }
+                }
+                .navbar-toggler{
+                    margin-right: 450%;
+                }   
+            }
+        }
+        .contenedorIconosHeader_img{
+            display: flex;
+            flex-direction: row;
+            width: 10%;
+            height: 5%;
+            align-items: center;
+            justify-content: center;
+            margin-top: 45px;
+            margin-left: -35px;
+            .iconoHeader{
+                width: 1.5rem;
+            }
+        }  
+    }
+}

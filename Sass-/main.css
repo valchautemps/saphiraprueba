@@ -1,0 +1,58 @@
+body main .imagenes {
+  margin-top: 12%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body main .imagenes .fotoSectionImagenes {
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+  width: 15vw;
+  margin: 2vw;
+}
+
+body main .imagenes .fotoSectionImagenes .fotoSectionImagenes:hover {
+  -webkit-transform: scale(1.2, 1.2);
+          transform: scale(1.2, 1.2);
+}
+
+body main .imagenes .fotoSectionImagenes img {
+  margin: 5px;
+  width: 20%;
+  height: 40%;
+}
+
+body main .carousel .slide .carousel-inner .horizontalUno {
+  width: 100%;
+  padding-top: 15%;
+}
+
+body main .carousel .slide .carousel-inner .horizontalDos {
+  width: 100%;
+  padding-top: 15%;
+}
+
+body main .carousel .slide .carousel-inner .horizontalTres {
+  width: 100%;
+  padding-top: 15%;
+}
+
+body main .carousel-control-prev {
+  padding-top: 15%;
+}
+
+body main .carousel-control-next {
+  padding-top: 15%;
+}
+/*# sourceMappingURL=main.css.map */
